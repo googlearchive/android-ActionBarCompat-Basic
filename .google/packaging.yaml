@@ -11,7 +11,7 @@ solutions:    [Mobile]
 github:       android-ActionBarCompat-Basic
 level:        BEGINNER
 icon:         screenshots/big-icon.png
-api_refs:
+apiRefs:
     - android:android.app.ActionBar
     - android:android.support.v7.app.ActionBarActivity
     - android:android.support.v4.view.MenuItemCompat
