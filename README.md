@@ -2,34 +2,34 @@ Android ActionBarCompat-Basic Sample
 ===================================
 
 This sample shows you how to use ActionBarCompat to create a basic Activity
-    which displays action items. It covers inflating items from a menu resource,
-    as well as adding an item in code.
+which displays action items. It covers inflating items from a menu resource,
+as well as adding an item in code.
 
 Introduction
 ------------
 
 Android 3.0 introduced the “action bar” control, a toolbar that is expected
-    to be present in most types of applications. This control identifies the user
-    location, and provides user actions and navigation modes.
-    Using the action bar offers your users a familiar interface across applications
-    that the system gracefully adapts for different screen configurations.
+to be present in most types of applications. This control identifies the user
+location, and provides user actions and navigation modes.
+Using the action bar offers your users a familiar interface across applications
+that the system gracefully adapts for different screen configurations.
 
-    Instantiating an action bar can be done by using the [ActionBar][1] API provided
-    in API 11 or above. Support for older devices is provided by the
-    [support library’s ActionBar][2] implementation, compatible back to API 7.
-    This sample demonstrates using the support library APIs.
+Instantiating an action bar can be done by using the [ActionBar][1] API provided
+in API 11 or above. Support for older devices is provided by the
+[support library’s ActionBar][2] implementation, compatible back to API 7.
+This sample demonstrates using the support library APIs.
 
-    Using an ActionBar with the support library requires the following steps:
+Using an ActionBar with the support library requires the following steps:
 
-    1. Create your activity by extending ActionBarActivity.
-    2. Use (or extend) one of the Theme.AppCompat themes for your activity.
+1. Create your activity by extending ActionBarActivity.
+2. Use (or extend) one of the Theme.AppCompat themes for your activity.
 
-    Once this is done, action items will be created for any options menu items that
-    would otherwise be created during when `[onCreateOptionsMenu()][3]` is called.
+Once this is done, action items will be created for any options menu items that
+would otherwise be created during when `[onCreateOptionsMenu()][3]` is called.
 
-    [1]: http://developer.android.com/reference/android/app/ActionBar.html
-    [2]: http://developer.android.com/reference/android/support/v7/app/ActionBar.html
-    [3]: http://developer.android.com/reference/android/app/Activity.html#onCreateOptionsMenu(android.view.Menu)
+[1]: http://developer.android.com/reference/android/app/ActionBar.html
+[2]: http://developer.android.com/reference/android/support/v7/app/ActionBar.html
+[3]: http://developer.android.com/reference/android/app/Activity.html#onCreateOptionsMenu(android.view.Menu)
 
 Pre-requisites
 --------------
@@ -41,7 +41,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src=screenshots/screenshot1.png height="400" alt="Screenshot"/> <img src=screenshots/screenshot2.png height="400" alt="Screenshot"/> 
+<img src="screenshots/screenshot1.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot2.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------
