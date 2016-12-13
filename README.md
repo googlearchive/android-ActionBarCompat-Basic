@@ -35,8 +35,8 @@ would otherwise be created during when `[onCreateOptionsMenu()][3]` is called.
 Pre-requisites
 --------------
 
-- Android SDK 24
-- Android Build Tools v24.0.1
+- Android SDK 25
+- Android Build Tools v25.0.2
 - Android Support Repository
 
 Screenshots
