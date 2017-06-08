@@ -14,6 +14,6 @@ level:        BEGINNER
 icon:         screenshots/big-icon.png
 apiRefs:
     - android:android.app.ActionBar
-    - android:android.support.v7.app.ActionBarActivity
+    - android:android.support.v7.app.AppCompatActivity
     - android:android.support.v4.view.MenuItemCompat
 license: apache2

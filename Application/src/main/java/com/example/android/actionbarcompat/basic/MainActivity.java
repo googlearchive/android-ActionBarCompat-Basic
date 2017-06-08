@@ -18,7 +18,7 @@ package com.example.android.actionbarcompat.basic;
 
 import android.os.Bundle;
 import android.support.v4.view.MenuItemCompat;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -26,10 +26,10 @@ import android.view.MenuItem;
  * This sample shows you how to use ActionBarCompat to create a basic Activity which displays
  * action items. It covers inflating items from a menu resource, as well as adding an item in code.
  *
- * This Activity extends from {@link ActionBarActivity}, which provides all of the function
+ * This Activity extends from {@link AppCompatActivity}, which provides all of the function
  * necessary to display a compatible Action Bar on devices running Android v2.1+.
  */
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
